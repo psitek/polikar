@@ -1,0 +1,48 @@
+@tailwind base;
+
+body {
+  @apply text-base antialiased bg-gray-100 font-body min-screen-width;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply pb-4 text-2xl antialiased font-heading;
+}
+
+h1 {
+  @apply leading-relaxed;
+}
+
+@tailwind components;
+
+.btn {
+  @apply px-4 py-2 font-bold border rounded shadow-lg min-w-24;
+}
+
+.btn:hover {
+  @apply text-white bg-gray-500 border-gray-500;
+}
+
+.btn-yellow {
+  @apply text-white bg-brandYellow border-brandYellow;
+}
+
+.btn-yellow:hover {
+  @apply text-white bg-gray-500 border-gray-500;
+}
+
+@tailwind utilities;
+
+.min-screen-width {
+  min-width: 320px;
+}
+
+.bg-blue-gradient {
+  background: rgb(23,158,233);
+  background: linear-gradient(90deg, rgba(23,158,233,1) 13%, rgba(3,164,231,1) 84%); 
+}
+
+.skew {
+  transform: skewY(-9deg);
+}
+
+
