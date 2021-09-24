@@ -7,7 +7,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="container px-4 mx-auto mt-2 mb-8 sm:mb-0">
+    <header className="container relative z-10 px-4 mx-auto mt-2 mb-8 sm:mb-0">
       <Helmet>
         <link href="https://fonts.googleapis.com/css?family=Nova+Flat:400|Karma:400|Montserrat:wght@100;400;600;700" />
       </Helmet>
@@ -40,15 +40,21 @@ const Header = () => {
             <div className="container">
               <div className="flex justify-between mt-24 text-left bg-white rounded shadow md:bg-transparent md:border-none md:shadow-none md:flex-row md:mt-0">
                 <ul className="flex flex-col py-4 pt-4 ml-8 md:flex-row md:p-0 md:m-0 md:w-full md:justify-between">
-                  <li className="w-20 py-2 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
-                    Oferta
-                  </li>
-                  <li className="w-20 py-2 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
-                    O nas
-                  </li>
-                  <li className="w-20 py-2 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
-                    Kontakt
-                  </li>
+                  <Link to="#offer">
+                    <li className="w-20 py-2 font-extrabold leading-8 tracking-tight text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
+                      Oferta
+                    </li>
+                  </Link>
+                  <Link to="#about">
+                    <li className="w-20 py-2 font-medium font-extrabold leading-8 tracking-tight text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
+                      O nas
+                    </li>
+                  </Link>
+                  <Link to="#footer">
+                    <li className="w-20 py-2 font-medium font-extrabold leading-8 tracking-tight text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900">
+                      Kontakt
+                    </li>
+                  </Link>
                 </ul>
                 <button
                   type="button"

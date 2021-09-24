@@ -64,3 +64,7 @@ h1 {
   clip-path: polygon(0 0, 0 100%, 100% 100%);
   background-color: #edf2f7;
 }
+
+html {
+  scroll-behavior: smooth;
+}

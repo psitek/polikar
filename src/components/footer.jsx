@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => {
   const date = new Date()
   return (
-    <footer className="relative w-full mt-48 bg-gray-200">
+    <footer id="footer" className="relative w-full mt-48 bg-gray-200">
       <div className="relative w-full bg-gray-200 footer-box"></div>
       <section className="flex flex-col px-4">
         <h2 className="sm:text-center">Skontaktuj się z nami!</h2>
