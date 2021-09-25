@@ -4,10 +4,7 @@ import printingPressImg from "../images/printing-press.jpg"
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="container relative mx-auto mb-10 text-gray-800 sm:px-0"
-    >
+    <section className="container relative mx-auto mb-10 text-gray-800 sm:px-0">
       <div class="">
         <img class="h-56 w-full object-cover" src={printingPressImg} alt="" />
       </div>
@@ -15,8 +12,11 @@ const About = () => {
         <div class=""></div>
         <div class="text-base max-w-prose mx-auto"></div>
 
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          Nasz proces
+        <h3
+          id="offer"
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          Oferta
         </h3>
 
         <List />
