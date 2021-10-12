@@ -17,7 +17,7 @@ const List = () => {
         Chętnie podejmiemy się wszystkich lub wybranych elementów w zależności
         od Państwa potrzeb.
       </p>
-      <dt class="my-8">
+      <dt class="my-8 flex items-center">
         <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-gradient text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const List = () => {
         </p>
       </dt>
 
-      <dt class="mb-8">
+      <dt class="mb-8 flex items-center">
         <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-gradient text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ const List = () => {
           opracowanie graficzne, korekty graficzne, impozycje
         </p>
       </dt>
-      <dt class="mb-8">
+      <dt class="mb-8 flex items-center">
         <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-gradient text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const List = () => {
           biegła znajomość CTP i DTP, druku
         </p>
       </dt>
-      <dt class="mb-8">
+      <dt class="mb-8 flex items-center">
         <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-gradient text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ const List = () => {
           twardych i zintegrowanych
         </p>
       </dt>
-      <dt class="mb-8">
+      <dt class="mb-8 flex items-center">
         <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-gradient text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,5 @@
 import React from "react"
 
-import factory from "../images/svg/factory.svg"
-
 const Offer = () => {
   return (
     <section

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="footer" className="relative w-full mt-48 bg-gray-200">
       <div className="relative w-full bg-gray-200 footer-box"></div>
       <section className="flex flex-col px-4">
-        <h2 className="sm:text-center">Skontaktuj się z nami!</h2>
+        <h2 className="text-center">Skontaktuj się z nami!</h2>
         <div className="flex flex-col items-center justify-around">
           <div className="flex items-start pb-2 mt-4">
             <svg
